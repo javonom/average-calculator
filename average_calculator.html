@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Average Calculator</title>
+    <link rel="stylesheet" href="average_calculator.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Average Calculator</h1>
+        <p>Enter numbers to calculate their average:</p>
+        <input type="number" id="numberInput" />
+        <button onclick="addNumber()">Add Number</button>
+        <p>Numbers:</p>
+        <div id="numberList"></div>
+        <button onclick="calculateAverage()">Calculate Average</button>
+        <p>Average: <span id="averageResult">-</span></p>
+    </div>
+    <script src="average_calculator.js"></script>
+
+</body>
+</html>
